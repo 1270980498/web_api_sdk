@@ -1,0 +1,25 @@
+{
+    "name": "caopeng/web_api_sdk",
+    "description": "web_cxc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cao peng",
+            "email": "1270980498@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Sky\\Demo\\"  : "src"
+        },
+        "files" : [
+            "src/helper.php"
+        ],
+        "classmap"  : [
+            "src/Common"
+        ]
+    }
+}
